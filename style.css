@@ -1,0 +1,67 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+.orange{
+    color: orange;
+}
+.heir-box{
+text-decoration: none;
+background-image: linear-gradient(orange,tomato);
+color: white;
+font-size: 20px;
+border-radius: 3px;
+padding: 5px 20px;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.haf-witdh{
+    width: 40%;
+   margin-left: 70px;
+}
+.haf-witdh img{
+    width: 80%;
+}
+.top-banar{
+    background-image: url(top-banner.png);
+   background-repeat: no-repeat;
+}
+.right-baner{
+   background-image: url(dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   
+}
+.singal-eria{
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-right: 70px;
+    background-color: white;
+}
+.to-baner{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#developar{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+   border-left: 5px solid;
+   border-image:linear-gradient(180deg,blue, cyan);
+   border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
